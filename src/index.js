@@ -1,4 +1,6 @@
-import component from './component';
+import AboutUs from './about-us';
 import './style.css';
 
-document.body.appendChild(component());
+const aboutus = new AboutUs();
+const content = document.querySelector('#content')
+content.append(aboutus.render());
