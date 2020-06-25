@@ -1,6 +1,7 @@
 import AboutUs from './about-us';
 import Menu from './menu';
 import ContactUs from './contact-us';
+import myPost from './myPost.png'
 
 class Navbar {
 
@@ -9,6 +10,7 @@ class Navbar {
     nav.className = 'nav';
 
     nav.innerHTML = `
+      <div class="banner"></div>
       <ul>
         <li>About Us</li>
         <li>Menu</li>
@@ -21,10 +23,17 @@ class Navbar {
     const menu = new Menu();
     const contact = new ContactUs();
 
+    const banner = nav.querySelector('.banner');
     const about = nav.querySelector('ul').getElementsByTagName('li')[0];
     const menuDisplay = nav.querySelector('ul').getElementsByTagName('li')[1];
     const contactDisplay = nav.querySelector('ul').getElementsByTagName('li')[2];
     const display = nav.querySelector('.display');
+
+    banner.innerHTML = `
+      <img src=${myPost}>
+    `;
+
+    display.append(aboutUs.render());
 
     about.addEventListener('click', function() {
       display.innerHTML = '';
