@@ -6,6 +6,9 @@ class ContactUs {
       <div>
         <h1>WE WANT TO HEAR FROM YOU!</h1>
       </div>
+      <div>
+        <img src="https://www.rainforestcafe.com/images/content/_photo-contact.png">
+      </div>
         <p>Thank you for taking the time to give us your feedback. We value your business and will make every effort to improve our service. Please note that information you share with us on this form is strictly confidential.<p>
         <div>
           <h3>Corporate Office</h3>
