@@ -1,6 +1,6 @@
 export default class AboutUs {
-  render() {
-    const container = document.createElement("div");
+  render() { // eslint-disable-line class-methods-use-this
+    const container = document.createElement('div');
     container.className = 'wrapper';
     container.innerHTML = `
       <div>

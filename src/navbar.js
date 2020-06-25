@@ -1,11 +1,10 @@
 import AboutUs from './about-us';
-import Menu from './menu';
+import Menu from './menu'; // eslint-disable-line import/no-named-as-default, import/no-named-as-default-member
 import ContactUs from './contact-us';
-import myPost from './myPost.png'
+import myPost from './myPost.png';
 
 class Navbar {
-
-  render() {
+  render() { // eslint-disable-line class-methods-use-this
     const nav = document.createElement('div');
     nav.className = 'nav';
 
@@ -35,24 +34,23 @@ class Navbar {
 
     display.append(aboutUs.render());
 
-    about.addEventListener('click', function() {
+    about.addEventListener('click', () => {
       display.innerHTML = '';
       display.append(aboutUs.render());
-    })
+    });
 
-    menuDisplay.addEventListener('click', function() {
+    menuDisplay.addEventListener('click', () => {
       display.innerHTML = '';
       display.append(menu.render());
-    })
+    });
 
-    contactDisplay.addEventListener('click', function() {
+    contactDisplay.addEventListener('click', () => {
       display.innerHTML = '';
       display.append(contact.render());
-    })
+    });
 
     return nav;
   }
-
 }
 
-export default Navbar
+export default Navbar;

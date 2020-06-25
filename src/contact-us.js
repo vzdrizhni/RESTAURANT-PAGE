@@ -1,6 +1,6 @@
 class ContactUs {
-  render() {
-    const container = document.createElement("div");
+  render() { // eslint-disable-line class-methods-use-this
+    const container = document.createElement('div');
     container.className = 'wrapper';
     container.innerHTML = `
       <div>
@@ -31,4 +31,4 @@ class ContactUs {
   }
 }
 
-export default ContactUs
+export default ContactUs;
