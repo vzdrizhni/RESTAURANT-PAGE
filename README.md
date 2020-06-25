@@ -23,10 +23,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/vzdrizhni/RESTAURANT-PAGE">
-    <img src="src/microverse.png" alt="Logo" width="80" height="80">
+    <img src="src/assets/images/microverse.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">JavaScript --> [Tic Tac Toe]</h3>
+  <h3 align="center">JavaScript --> [Restaurant page]</h3>
 
   <p align="center">
     This project is part of the Microverse curriculum in JavaScript module!
@@ -56,6 +56,8 @@
 ## About The Project
 
 In this project, the student builds a Restaurant Page. This project follows the lesson about building with javascript only with the help of webpack. Webpack is a static module bundler for modern JavaScript applications. Also the purpose of project is displaying content based on a chosen tab.
+
+![screenshot](assets/images/screenshot.PNG)
 
 <p float="left" align="center">
   <img src="assets/smartmockups_kbonzmh4.png" width="300" />

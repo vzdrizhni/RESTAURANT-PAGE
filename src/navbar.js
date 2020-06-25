@@ -1,7 +1,7 @@
 import AboutUs from './about-us';
 import Menu from './menu'; // eslint-disable-line import/no-named-as-default, import/no-named-as-default-member
 import ContactUs from './contact-us';
-import myPost from './myPost.png';
+import myPost from './assets/images/myPost.png';
 
 class Navbar {
   render() { // eslint-disable-line class-methods-use-this
