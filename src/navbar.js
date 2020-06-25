@@ -11,7 +11,7 @@ class Navbar {
 
     nav.innerHTML = `
       <div class="banner"></div>
-      <ul>
+      <ul class="ul">
         <li>About Us</li>
         <li>Menu</li>
         <li>Contact Us</li>
