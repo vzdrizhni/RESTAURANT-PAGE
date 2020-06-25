@@ -57,12 +57,7 @@
 
 In this project, the student builds a Restaurant Page. This project follows the lesson about building with javascript only with the help of webpack. Webpack is a static module bundler for modern JavaScript applications. Also the purpose of project is displaying content based on a chosen tab.
 
-![screenshot](assets/images/screenshot.PNG)
-
-<p float="left" align="center">
-  <img src="assets/smartmockups_kbonzmh4.png" width="300" />
-  <img src="assets/smartmockups_kbonxojq.png" width="300" />
-</p>
+![screenshot](src/assets/images/screenshot.PNG)
 
 ### Built With
 This project was built using these technologies.
